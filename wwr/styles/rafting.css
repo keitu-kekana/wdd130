@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap');
+*{
+    margin:4px;
+    padding:2px;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #083d77;
+    --secondary-color: #08A045;
+    --accent1-color: #D6FFF6;
+    --accent2-color: #FFCB47;
+
+    --heading-font: 'Archivo Black', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #08a045;
+    --nav-link-color: #d6fff6;
+    --nav-hover-link-color: #083d77;
+    --nav-vover-background-color: #ffcb47;
+}
+h1,h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p{
+    font-family: var(--paragraph-font);
+    color: black;
+}
+.hero{
+    position: relative;
+}
+.hero div{
+    position: relative;
+    background-color: var(--accent1-color);
+    padding: 10px;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+.hero h1, article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+div img{
+    display:block;
+    width: 100px;
+    height:auto
+}
