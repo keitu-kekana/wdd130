@@ -33,6 +33,7 @@ p{
     position: relative;
     background-color: var(--accent1-color);
     padding: 10px;
+    
 }
 .hero img{
     display: block;
