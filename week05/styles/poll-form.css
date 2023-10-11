@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Crimson+Text&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    max-width: 650px;
+    padding: 30px;
+
+}
+header,h1{
+    color: darkgreen;
+}
+form{
+    width: 480px;
+    margin-inline: 50px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    display: grid;
+}
+fieldset{
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+}
+legend{
+    font-family: 'Archivo Black', sans-serif;
+    padding: 3px;
+    margin: 10px;
+    color: darkgreen;
+}
+label{
+    text-align: right;
+    padding-right: 100px;
+    font-family: 'Crimson Text', sans-serif;
+}
+input,select,textarea{
+    padding: 5px;
+    font-size: larger;
+    font-family: 'Crimson Text', sans-serif;
+}
+input [type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button{
+    background-color: darkgreen;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    margin: auto;
+}
+button:hover{
+    background-color: rgb(49, 187, 49);
+    color: black;
+}
+footer{
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    font-size: medium;
+    color: #777;
+    border-top: 2px dotted;
+}
+.form-item{
+    display: grid;
+    align-items: center;
+}
+.column1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 5px;
+}
+.column2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
