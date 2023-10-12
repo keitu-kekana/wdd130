@@ -14,7 +14,7 @@ form{
     display: grid;
     border: 1px gray;
     border-radius: 10px;
-    max-width: 900px;
+    max-width: 500px;
     margin: 20px;
 }
 button{
@@ -53,4 +53,18 @@ footer{
     padding: 2px;
     margin: 3px;
     border-top: 0.5px solid
+}
+.item1{
+    display: grid;
+    align-items: left;
+}
+.column1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 5px;
+}
+.column2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
 }
