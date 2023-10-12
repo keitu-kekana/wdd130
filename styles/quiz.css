@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
+h1{
+    font-family: 'Roboto Slab', sans-serif;
+    color:rgb(95, 148, 32);
+    padding: 10px;
+}
+fieldset{
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+}
+form{
+    background-color: rgb(233, 233, 233);
+    display: grid;
+    border: 1px gray;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px;
+}
+button{
+    margin:5px;
+    width: 200px;
+    background-color: rgb(95, 148, 32);
+    color: black
+}
+button:hover{
+    color: whitesmoke;
+    background-color: rgb(16, 134, 51);
+}
+legend{
+    font-family: 'Roboto Slab', sans-serif;
+    padding: 3px;
+    margin: 5px;
+    color: darkgreen;
+}
+label{
+    text-align: right;
+    padding-right: 100px;
+    font-family: 'Robot Slab', sans-serif;
+}
+input,select,textarea{
+    padding: 5px;
+    font-size: larger;
+    font-family: 'Roboto Slab', sans-serif;
+}
+input [type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+footer{
+    color: rgb(136, 135, 135);
+    padding: 2px;
+    margin: 3px;
+    border-top: 0.5px solid
+}
