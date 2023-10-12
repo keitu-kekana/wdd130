@@ -21,7 +21,7 @@ button{
     margin:5px;
     width: 200px;
     background-color: rgb(95, 148, 32);
-    color: black
+    color: black;
 }
 button:hover{
     color: whitesmoke;
