@@ -86,17 +86,22 @@ div img{
     border-bottom: 1px solid;
 }
 .section{
-    display: flex;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 10% 30%;
 }
 .section h2{
     display: flex;
     justify-content: center;
+    margin: 10px;
+    border-bottom: 1px solid;
 }
 .section img{
     width: 200px;
 }
 figure img{
     border:#08A045 solid;
+    grid-row-start: 2;
 }
 figcaption{
     background-color: #FFCB47;
@@ -134,20 +139,13 @@ button:hover{
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 15% 30% 30%;
 }
-.figure{
+figure{
+    font-family: "Roboto", sans-serif;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }
-.figure1{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-}
-.figure2{
 
-}
 
 
